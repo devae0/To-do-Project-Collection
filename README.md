@@ -1,21 +1,14 @@
 
-To-Do Project Collection 📝
-This repository contains two separate versions of a task management system, focusing on logic and design independently.
+# **To-Do Project Collection**
 
-🐍 Python Version (/TODOPY)
-Focus: Backend Logic & Data Persistence
+### **Python Implementation**
+* **Folder**: `/TODOPY`
+* **Focus**: Logic and Data Management.
+* **Key Features**: Uses dictionaries for tasks, JSON for storage, and `try-except` for error handling.
 
-Logic: Uses a list of dictionaries for task management.
+---
 
-Storage: Implements JSON file handling to save tasks.
-
-Features: Includes error handling with try-except and batch updates via map.
-
-🌐 Web Version (/To_do web)
-Focus: Frontend UI & Layout Design
-
-Layout: Centered dashboard design built with CSS Flexbox.
-
-Styling: Modern interface featuring custom input fields and rounded task bars.
-
-Status: A static UI prototype demonstrating clean HTML and CSS structure.
+### **Web Implementation**
+* **Folder**: `/To_do web`
+* **Focus**: UI Design and Layout.
+* **Key Features**: Centered Flexbox layout with custom-styled input fields and pink task bars.
