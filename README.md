@@ -11,4 +11,4 @@
 ### **Web Implementation**
 * **Folder**: `/To_do web`
 * **Focus**: UI Design and Layout.
-* **Key Features**: Centered Flexbox layout with custom-styled input fields and pink task bars.
+* **Key Features**: Built with a responsive Flexbox layout, focusing on CSS box-model principles, custom form styling, and visual hierarchy for task management.
