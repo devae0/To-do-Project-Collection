@@ -1,0 +1,22 @@
+[
+    {
+        "task": "Study os",
+        "status": "done"
+    },
+    {
+        "task": "study dbms",
+        "status": "done"
+    },
+    {
+        "task": "wash clothes",
+        "status": "done"
+    },
+    {
+        "task": "do proejct",
+        "status": "pending"
+    },
+    {
+        "task": "cooking",
+        "status": "pending"
+    }
+]

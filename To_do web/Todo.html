@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #0F172A;
+            color: black;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        input {
+            padding: 15px 20px;
+            border: solid #334155 3px;
+            border-radius: 50px;
+            width: 300px;
+            font-size: 20px;
+
+        }
+
+        .add_btn {
+            border-radius: 50px;
+            width: 46px;
+            height: 46px;
+            font-size: 30px;
+            border: solid black 3px;
+            background-color: #84ee84;
+
+
+        }
+
+        .add_group {
+            display: flex;
+            align-items: center;
+            gap: 10px
+        }
+
+        .card {
+            background-color: #ebf6db;
+            padding: 40px;
+            width: 400px;
+            height: 600px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px black;
+        }
+
+        #task {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 25px;
+        }
+
+        #task li {
+            background: #ffffff;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: left;
+            /* Keeps text to the left */
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+        }
+
+        .edit,
+        .delete {
+            border-radius: 30px;
+            width: 40px;
+            height: 40px;
+            border: none;
+        }
+
+        .delete {
+            background-color: #ebabc6;
+        }
+
+        .edit {
+            background-color: #dfde9e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="card">
+            <h1>TO DO LIST</h1>
+
+            <div class="add_group">
+                <input type="text" id="to_do_input" placeholder="Add your task">
+                <button class="add_btn">+</button>
+
+            </div>
+            <div class="list_of_task">
+                <ul id="task">
+                    <li>
+                        Study Math
+                        <div class="icon_list">
+                            <button class="edit">🖍</button>
+                            <button class="delete">🗑️</button>
+                        </div>
+                    </li>
+                    <li>
+                        Wash Clothes
+                        <div class="icon_list">
+                            <button class="edit">🖍</button>
+                            <button class="delete">🗑️</button>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
